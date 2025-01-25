@@ -1,4 +1,4 @@
-package com.hos.compose.coroutinesroomcompose.ui.theme
+package com.hos.compose.coroutines_room_sample.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -12,15 +12,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = PrimaryColor,
+    secondary = PrimaryLightColor,
+    tertiary = PrimaryColor
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = PrimaryColor,
+    secondary = PrimaryLightColor,
+    tertiary = PrimaryColor
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun CoroutinesRoomComposeTheme(
+fun CoroutinesroomsampleTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
