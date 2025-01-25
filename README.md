@@ -2,6 +2,8 @@
 
 This repository demonstrates a sample To-Do application built using Android's modern development tools and libraries, including Coroutines, Room, and Jetpack Compose.
 
+<img src="https://github.com/user-attachments/assets/0b688c69-500f-4e4f-b3e4-d39ba466b1e0" alt="Screenshot_1737820055" width="300" />
+
 ## Overview
 
 The project is designed to showcase how to effectively integrate these technologies to create a clean, efficient, and user-friendly application. It serves as a learning resource for developers interested in modern Android development practices.
