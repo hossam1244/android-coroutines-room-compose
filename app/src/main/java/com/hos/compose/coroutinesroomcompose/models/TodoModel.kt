@@ -1,4 +1,4 @@
-package com.hos.compose.coroutines_room_sample.models
+package com.hos.compose.coroutinesroomcompose.models
 
 import java.util.UUID
 

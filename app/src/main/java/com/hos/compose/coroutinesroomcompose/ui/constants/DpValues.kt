@@ -1,4 +1,4 @@
-package com.hos.compose.coroutines_room_sample.ui.constants
+package com.hos.compose.coroutinesroomcompose.ui.constants
 
 
 import androidx.compose.ui.unit.Dp

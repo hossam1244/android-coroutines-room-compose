@@ -1,4 +1,4 @@
-package com.hos.compose.coroutines_room_sample.composables
+package com.hos.compose.coroutinesroomcompose.composables
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -28,16 +28,16 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
-import com.hos.compose.coroutines_room_sample.models.TodoItem
-import com.hos.compose.coroutines_room_sample.ui.constants.LargeDp
-import com.hos.compose.coroutines_room_sample.ui.constants.MediumDp
-import com.hos.compose.coroutines_room_sample.ui.constants.TodoItemActionButtonRippleRadius
-import com.hos.compose.coroutines_room_sample.ui.constants.TodoItemHeight
-import com.hos.compose.coroutines_room_sample.ui.constants.TodoItemIconSize
+import com.hos.compose.coroutinesroomcompose.models.TodoItem
+import com.hos.compose.coroutinesroomcompose.ui.constants.LargeDp
+import com.hos.compose.coroutinesroomcompose.ui.constants.MediumDp
+import com.hos.compose.coroutinesroomcompose.ui.constants.TodoItemActionButtonRippleRadius
+import com.hos.compose.coroutinesroomcompose.ui.constants.TodoItemHeight
+import com.hos.compose.coroutinesroomcompose.ui.constants.TodoItemIconSize
 import com.hos.compose.coroutines_room_sample.ui.theme.TodoItemBackgroundColor
 import com.hos.compose.coroutines_room_sample.ui.theme.TodoItemIconColor
 import com.hos.compose.coroutines_room_sample.ui.theme.TodoItemTextColor
-import com.hos.compose.coroutines_room_sample.ui.theme.TodoItemTitleTextStyle
+import com.hos.compose.coroutinesroomcompose.ui.theme.TodoItemTitleTextStyle
 import com.hos.compose.coroutinesroomcompose.R
 
 

@@ -1,4 +1,4 @@
-package com.hos.compose.coroutines_room_sample
+package com.hos.compose.coroutinesroomcompose
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.hos.compose.coroutines_room_sample.ui.theme.CoroutinesroomsampleTheme
+import com.hos.compose.coroutinesroomcompose.ui.theme.CoroutinesroomsampleTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

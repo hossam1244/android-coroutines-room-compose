@@ -1,4 +1,4 @@
-package com.hos.compose.coroutines_room_sample
+package com.hos.compose.coroutinesroomcompose
 
 import androidx.lifecycle.ViewModel
 
