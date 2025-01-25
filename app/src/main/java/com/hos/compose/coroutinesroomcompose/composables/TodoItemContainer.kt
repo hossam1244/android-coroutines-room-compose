@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.hos.compose.coroutinesroomcompose.models.TodoItem
+import com.hos.compose.coroutinesroomcompose.data.models.TodoItem
 import com.hos.compose.coroutinesroomcompose.ui.constants.MediumDp
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf

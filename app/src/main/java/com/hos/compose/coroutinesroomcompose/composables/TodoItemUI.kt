@@ -28,7 +28,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
-import com.hos.compose.coroutinesroomcompose.models.TodoItem
+import com.hos.compose.coroutinesroomcompose.data.models.TodoItem
 import com.hos.compose.coroutinesroomcompose.ui.constants.LargeDp
 import com.hos.compose.coroutinesroomcompose.ui.constants.MediumDp
 import com.hos.compose.coroutinesroomcompose.ui.constants.TodoItemActionButtonRippleRadius

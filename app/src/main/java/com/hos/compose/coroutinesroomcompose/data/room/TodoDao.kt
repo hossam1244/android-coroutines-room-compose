@@ -1,7 +1,7 @@
-package com.hos.compose.coroutinesroomcompose.room
+package com.hos.compose.coroutinesroomcompose.data.room
 
 import androidx.room.*
-import com.hos.compose.coroutinesroomcompose.models.TodoItem
+import com.hos.compose.coroutinesroomcompose.data.models.TodoItem
 import kotlinx.coroutines.flow.Flow
 
 // 1. Dao Annotation
