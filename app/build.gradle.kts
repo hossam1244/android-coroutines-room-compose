@@ -68,6 +68,9 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.1")
     // 4. Room Compiler
     ksp("androidx.room:room-compiler:2.6.1")
+    // 5. Compose Navigation
+    val nav_version = "2.8.9"
+    implementation("androidx.navigation:navigation-compose:$nav_version")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
