@@ -1,4 +1,4 @@
-package com.hos.compose.coroutinesroomcompose
+package com.hos.compose.coroutinesroomcompose.ui.screens.main_screen
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

@@ -1,4 +1,4 @@
-package com.hos.compose.coroutinesroomcompose
+package com.hos.compose.coroutinesroomcompose.ui.screens.main_screen
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -20,6 +20,11 @@ import com.hos.compose.coroutinesroomcompose.ui.theme.CoroutinesroomsampleTheme
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flowOf
 
+// TODO
+// 1. DATA STORE
+// 2. WORK MANAGER
+// 3. RETROFIT
+// 4. COMPOSE UI
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
