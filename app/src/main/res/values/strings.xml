@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TodoDemoAppTest</string>
     <string name="todo_input_bar_hint">Write your todo</string>
+    <string name="email_hint">Email</string>
 </resources>

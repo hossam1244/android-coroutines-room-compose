@@ -16,6 +16,7 @@ import com.hos.compose.coroutinesroomcompose.data.models.TodoItem
 import com.hos.compose.coroutinesroomcompose.data.room.AppDatabase
 import com.hos.compose.coroutinesroomcompose.repository.TodoRepository
 import com.hos.compose.coroutinesroomcompose.ui.constants.OverlappingHeight
+import com.hos.compose.coroutinesroomcompose.ui.screens.login_screen.LoginScreen
 import com.hos.compose.coroutinesroomcompose.ui.theme.CoroutinesroomsampleTheme
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flowOf
@@ -38,17 +39,18 @@ class MainActivity : ComponentActivity() {
             Box(
                 modifier = Modifier.fillMaxSize()
             ) {
-                TodoItemsContainer(
-                    todoItemsFlow = mainViewModel.todos,
-                    // 3. Method Reference Expression
-                    onItemClick = mainViewModel::toggleTodo,
-                    onItemDelete = mainViewModel::removeTodo,
-                    overlappingElementsHeight = OverlappingHeight
-                )
-                TodoInputBar(
-                    modifier = Modifier.align(Alignment.BottomStart),
-                    onAddButtonClick = mainViewModel::addTodo
-                )
+                LoginScreen()
+//                TodoItemsContainer(
+//                    todoItemsFlow = mainViewModel.todos,
+//                    // 3. Method Reference Expression
+//                    onItemClick = mainViewModel::toggleTodo,
+//                    onItemDelete = mainViewModel::removeTodo,
+//                    overlappingElementsHeight = OverlappingHeight
+//                )
+//                TodoInputBar(
+//                    modifier = Modifier.align(Alignment.BottomStart),
+//                    onAddButtonClick = mainViewModel::addTodo
+//                )
             }
         }
     }
