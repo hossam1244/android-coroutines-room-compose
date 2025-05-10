@@ -73,8 +73,7 @@ fun TodoItemUi(
                 .background(backgroundColor)
                 // 5. Clickable Modifier with Ripple Effect:
                 .clickable(
-                    interactionSource = remember { MutableInteractionSource() },
-                    indication = rememberRipple(bounded = true)
+
                 ) { onItemClick(todoItem) },
             verticalAlignment = Alignment.CenterVertically,
         ) {
