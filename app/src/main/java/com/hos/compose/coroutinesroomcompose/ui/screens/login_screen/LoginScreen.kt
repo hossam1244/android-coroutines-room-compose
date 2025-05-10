@@ -22,6 +22,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.hos.compose.coroutines_room_sample.ui.theme.*
 import com.hos.compose.coroutinesroomcompose.R
+import com.hos.compose.coroutinesroomcompose.composables.VerticalSpacer
 import com.hos.compose.coroutinesroomcompose.ui.constants.*
 import com.hos.compose.coroutinesroomcompose.ui.theme.TodoInputBarTextStyle
 
@@ -42,8 +43,7 @@ fun LoginScreen(
         ) {
             Text(text = "Login", style = MaterialTheme.typography.headlineMedium)
 
-            Spacer(modifier = Modifier.height(24.dp))
-
+            VerticalSpacer(16)
 
             OutlinedTextField(
                 modifier = Modifier
@@ -62,7 +62,7 @@ fun LoginScreen(
             )
 
 
-            Spacer(modifier = Modifier.height(16.dp))
+            VerticalSpacer(16)
 
             Button(
                 onClick = { /* Handle login logic */ },
