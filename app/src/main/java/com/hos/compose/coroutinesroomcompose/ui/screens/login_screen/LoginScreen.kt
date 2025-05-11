@@ -42,9 +42,7 @@ fun LoginScreen(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(text = "Login", style = MaterialTheme.typography.headlineMedium)
-
             VerticalSpacer(16)
-
             OutlinedTextField(
                 modifier = Modifier
                     .height(60.dp)
